@@ -25,6 +25,8 @@ This is a comprehensive RESTful API for a real-time bidding platform built using
 - Install dependencies using `npm install`.
 - Set up environment variables for database and other configuration settings as described in the `.env.example` file.
 
+
+
 # PostgreSQL Database Setup
 
 ## Install PostgreSQL
@@ -38,6 +40,8 @@ If you don't have PostgreSQL installed, download and install it from [here](http
 
    ```sql
    CREATE DATABASE bidding_platform;
+
+   
 
    
 
