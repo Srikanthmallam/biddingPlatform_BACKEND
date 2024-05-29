@@ -3,6 +3,9 @@
 
 This is a comprehensive RESTful API for a real-time bidding platform built using Node.js, Express, Socket.io, and a SQL database (PostgreSQL or MySQL). The API supports advanced CRUD operations, user authentication, role-based access control, real-time bidding, and notifications.
 
+[Download Postman Collection](https://drive.google.com/file/d/19npBFT38oYxxrg4SNpUiYYtqW5YCbV6j/view?usp=sharing)
+
+
 ## Table of Contents
 
 - [Environment Setup](#environment-setup)
@@ -21,6 +24,22 @@ This is a comprehensive RESTful API for a real-time bidding platform built using
 - Clone this repository to your local machine.
 - Install dependencies using `npm install`.
 - Set up environment variables for database and other configuration settings as described in the `.env.example` file.
+
+# PostgreSQL Database Setup
+
+## Install PostgreSQL
+
+If you don't have PostgreSQL installed, download and install it from [here](https://www.postgresql.org/download/).
+
+## Create Database
+
+1. Open your PostgreSQL command line tool (psql).
+2. Run the following command to create a new database:
+
+   ```sql
+   CREATE DATABASE bidding_platform;
+
+   
 
 ## Database Schema
 
