@@ -103,7 +103,7 @@ Ensure to set up the following environment variables:
 ## Testing
 
 - Unit and integration tests are available in the `tests` directory.
-- Run tests using `npx  jesr --detectOpenHandles`.
+- Run tests using `npx  jest --detectOpenHandles`.
 
 ## Deployment
 
